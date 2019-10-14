@@ -1,0 +1,22 @@
+{
+    "_id": ObjectId(),
+    "name": string,
+    "description": string,
+    "timeline": {
+        "from": date,
+        "to": date
+    },
+    "pulsesList": [
+        ObjectId()
+    ],
+    "milestoneMetaId": ObjectId(),
+    "milestoneMeta_key1": value,
+    "milestoneMeta_key2": value,
+    "milestoneMeta_key3": value,
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
+}

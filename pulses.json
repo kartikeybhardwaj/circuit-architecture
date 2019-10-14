@@ -1,0 +1,29 @@
+{
+    "_id": ObjectId(),
+    "name": string,
+    "description": string,
+    "timeline": {
+        "from": date,
+        "to": date
+    },
+    "assignees": [
+        ObjectId()
+    ],
+    "comments": [{
+        "comment": string,
+        "meta": {
+            "addedBy": ObjectId(),
+            "addedOn": date
+        }
+    }],
+    "pulseMetaId": ObjectId(),
+    "pulseMeta_key1": value,
+    "pulseMeta_key2": value,
+    "pulseMeta_key3": value,
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_id": ObjectId(),
+    "name": string,
+    "description": string,
+    "milestonesList": [
+        ObjectId()
+    ],
+    "visibility": public / internal / private,
+    "users": [{
+        "userId": ObjectId(),
+        "role": ObjectId()
+    }],
+    "projectMetaId": ObjectId(),
+    "projectMeta_key1": value,
+    "projectMeta_key2": value,
+    "projectMeta_key3": value,
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
+}

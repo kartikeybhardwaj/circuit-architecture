@@ -1,0 +1,15 @@
+{
+    "_id": ObjectId(),
+    "name": string,
+    "description": string,
+    "fields": {
+        "key": string,
+        "type": string/int/number/bool/stringList/intList/numberList
+    },
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
+}

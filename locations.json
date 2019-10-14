@@ -1,0 +1,11 @@
+{
+    "_id": ObjectId(),
+    "country": string,
+    "city": [string],
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
+}

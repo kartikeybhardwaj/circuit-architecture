@@ -1,0 +1,35 @@
+{
+    "_id": ObjectId(),
+    "username": string,
+    "displayname": string,
+    "location": [{
+        "locationId": ObjectId(),
+        "timeline": {
+            "from": date,
+            "to": date
+        }
+    }],
+    "nonAvailability": [{
+        "reason": string,
+        "timeline": {
+            "from": date,
+            "to": date
+        }
+    }],
+    "access": {
+        "projects": [{
+            "projectId": ObjectId(),
+            "milestones": [{
+                "milestoneId": ObjectId(),
+                "pulses": [{
+                    "pulseId": ObjectId()
+                }]
+            }]
+        }]
+    },
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastSeen": date
+    }
+}
