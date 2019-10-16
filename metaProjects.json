@@ -2,10 +2,11 @@
     "_id": ObjectId(),
     "name": string,
     "description": string,
-    "fields": {
+    "fields": [{
         "key": string,
-        "type": string/int/number/bool/stringList/intList/numberList
-    },
+        "valueType": select/input,
+        "value": list/string
+    }],
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
