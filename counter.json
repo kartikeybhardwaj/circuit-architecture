@@ -1,0 +1,37 @@
+[{
+    "_id": ObjectId(),
+    "for": "users",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "roles",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "locations",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "projects",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "milestones",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "pulses",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "metaProjects",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "metaMilestones",
+    "count": number
+}, {
+    "_id": ObjectId(),
+    "for": "metaPulses",
+    "count": number
+}]

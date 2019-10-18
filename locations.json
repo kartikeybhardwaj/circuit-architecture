@@ -1,5 +1,6 @@
 {
     "_id": ObjectId(),
+    "index": number,
     "country": string,
     "city": [string],
     "meta": {
