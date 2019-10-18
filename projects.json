@@ -1,19 +1,21 @@
 {
     "_id": ObjectId(),
-    "name": string,
+    "title": string,
     "description": string,
     "milestonesList": [
         ObjectId()
     ],
     "visibility": public / internal / private,
-    "users": [{
+    "members": [{
         "userId": ObjectId(),
-        "role": ObjectId()
+        "roleId": ObjectId()
     }],
     "projectMetaId": ObjectId(),
-    "projectMeta_key1": value,
-    "projectMeta_key2": value,
-    "projectMeta_key3": value,
+    "fields": {
+        "projectMeta_key1": value,
+        "projectMeta_key2": value,
+        "projectMeta_key3": value
+    },
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,

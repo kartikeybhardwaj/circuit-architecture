@@ -1,6 +1,6 @@
 {
     "_id": ObjectId(),
-    "name": string,
+    "title": string,
     "description": string,
     "timeline": {
         "from": date,
@@ -10,9 +10,11 @@
         ObjectId()
     ],
     "milestoneMetaId": ObjectId(),
-    "milestoneMeta_key1": value,
-    "milestoneMeta_key2": value,
-    "milestoneMeta_key3": value,
+    "fields": {
+        "milestoneMeta_key1": value,
+        "milestoneMeta_key2": value,
+        "milestoneMeta_key3": value,
+    },
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
