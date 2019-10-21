@@ -6,15 +6,15 @@
     "location": [{
         "locationId": ObjectId(),
         "timeline": {
-            "from": date,
-            "to": date
+            "begin": date,
+            "end": date
         }
     }],
     "nonAvailability": [{
         "reason": string,
         "timeline": {
-            "from": date,
-            "to": date
+            "begin": date,
+            "end": date
         }
     }],
     "access": {
