@@ -8,5 +8,11 @@
     "canModifyLocations": bool,
     "canModifyProjects": bool,
     "canModifyMilestones": bool,
-    "canModifyPulses": bool
+    "canModifyPulses": bool,
+    "meta": {
+        "addedBy": ObjectId(),
+        "addedOn": date,
+        "lastUpdatedBy": ObjectId(),
+        "lastUpdatedOn": date
+    }
 }

@@ -3,7 +3,8 @@
     "index": number,
     "username": string,
     "displayname": string,
-    "location": [{
+    "baseLocation": ObjectId(),
+    "otherLocations": [{
         "locationId": ObjectId(),
         "timeline": {
             "begin": date,
