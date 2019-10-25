@@ -1,8 +1,7 @@
 {
     "_id": ObjectId(),
     "index": number,
-    "country": string,
-    "city": [string],
+    "name": string,
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
