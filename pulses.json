@@ -3,6 +3,7 @@
     "index": number,
     "title": string,
     "description": string,
+    "color": string,
     "timeline": {
         "begin": date,
         "end": date
