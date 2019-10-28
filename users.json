@@ -3,6 +3,7 @@
     "index": number,
     "username": string,
     "displayname": string,
+    "isSuperuser": bool,
     "baseLocation": ObjectId(),
     "otherLocations": [{
         "locationId": ObjectId(),

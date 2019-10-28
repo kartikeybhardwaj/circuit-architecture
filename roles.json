@@ -3,7 +3,6 @@
     "index": number,
     "name": string,
     "description": string,
-    "isSuperUser": bool,
     "canModifyUsersRole": bool,
     "canModifyLocations": bool,
     "canModifyProjects": bool,
