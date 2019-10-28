@@ -2,6 +2,7 @@
     "_id": ObjectId(),
     "index": number,
     "name": string,
+    "isActive": bool,
     "description": string,
     "canModifyUsersRole": bool,
     "canModifyLocations": bool,

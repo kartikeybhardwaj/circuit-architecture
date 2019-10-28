@@ -2,6 +2,7 @@
     "_id": ObjectId(),
     "index": number,
     "title": string,
+    "isActive": bool,
     "description": string,
     "color": string,
     "timeline": {
