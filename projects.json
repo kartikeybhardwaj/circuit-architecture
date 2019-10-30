@@ -13,11 +13,10 @@
         "roleId": ObjectId()
     }],
     "projectMetaId": ObjectId(),
-    "fields": {
-        "projectMeta_key1": value,
-        "projectMeta_key2": value,
-        "projectMeta_key3": value
-    },
+    "fields": [{
+        "key": "key_name" str,
+        "key_name": value
+    }],
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,

@@ -20,11 +20,10 @@
         }
     }],
     "pulseMetaId": ObjectId(),
-    "fields": {
-        "pulseMeta_key1": value,
-        "pulseMeta_key2": value,
-        "pulseMeta_key3": value
-    },
+    "fields": [{
+        "key": "key_name" str,
+        "key_name": value
+    }],
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,

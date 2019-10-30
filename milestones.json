@@ -12,11 +12,10 @@
         ObjectId()
     ],
     "milestoneMetaId": ObjectId(),
-    "fields": {
-        "milestoneMeta_key1": value,
-        "milestoneMeta_key2": value,
-        "milestoneMeta_key3": value,
-    },
+    "fields": [{
+        "key": "key_name" str,
+        "key_name": value
+    }],
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
