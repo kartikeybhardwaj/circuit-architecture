@@ -16,6 +16,7 @@
         "key": str,
         "value": str
     }],
+    "linkedProjectId": ObjectId(),
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
