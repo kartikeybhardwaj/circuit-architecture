@@ -13,8 +13,8 @@
     ],
     "milestoneMetaId": ObjectId(),
     "fields": [{
-        "key": "key_name" str,
-        "key_name": value
+        "key": str,
+        "value": str
     }],
     "meta": {
         "addedBy": ObjectId(),
