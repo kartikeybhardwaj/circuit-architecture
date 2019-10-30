@@ -24,6 +24,7 @@
         "key": str,
         "value": str
     }],
+    "linkedMilestoneId": ObjectId(),
     "meta": {
         "addedBy": ObjectId(),
         "addedOn": date,
