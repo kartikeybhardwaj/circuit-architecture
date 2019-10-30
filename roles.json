@@ -1,7 +1,7 @@
 {
     "_id": ObjectId(),
     "index": number,
-    "name": string,
+    "title": string,
     "isActive": bool,
     "description": string,
     "canModifyUsersRole": bool,
