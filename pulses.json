@@ -24,6 +24,7 @@
         "key": str,
         "value": str
     }],
+    "linkedProjectId": ObjectId(),
     "linkedMilestoneId": ObjectId(),
     "meta": {
         "addedBy": ObjectId(),
