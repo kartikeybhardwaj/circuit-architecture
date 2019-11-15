@@ -8,6 +8,7 @@
         "begin": date,
         "end": date
     },
+    "locationId": ObjectId(),
     "pulsesList": [
         ObjectId()
     ],
