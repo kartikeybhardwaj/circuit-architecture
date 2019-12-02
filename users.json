@@ -25,9 +25,9 @@
             "projectId": ObjectId(),
             "milestones": [{
                 "milestoneId": ObjectId(),
-                "pulses": [{
-                    "pulseId": ObjectId()
-                }]
+                "pulses": [
+                    ObjectId()
+                ]
             }]
         }]
     },
